@@ -16,4 +16,8 @@ public class SimpleTests {
 		Assert.assertTrue(true);
 	}
 	
+	@Test
+	public void thirdTest() {
+		Assert.assertTrue(true);
+	}
 }
