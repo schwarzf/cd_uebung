@@ -41,6 +41,10 @@ public class Layout
 
     public String getClassForPageName()
     {
+    	Object a = "some stuff for findbugs";
+    	if (a == "blubber") {
+    		
+    	}
         return resources.getPageName().equalsIgnoreCase(pageName)
                 ? "current_page_item"
                 : null;
