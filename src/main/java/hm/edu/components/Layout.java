@@ -45,6 +45,14 @@ public class Layout
     	if (a == "blubber") {
     		
     	}
+    	
+    	 String b = "bob";
+    	 b.replace('b', 'p');
+    	 if(b.equals("pop")) {
+    		 System.out.println("a warning");
+    	 }
+    	
+    	
         return resources.getPageName().equalsIgnoreCase(pageName)
                 ? "current_page_item"
                 : null;
