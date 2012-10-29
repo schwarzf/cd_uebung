@@ -6,6 +6,6 @@ public class SimpleTest {
 
 	@Test
 	public void alwaysTrue() {
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	}
 }
